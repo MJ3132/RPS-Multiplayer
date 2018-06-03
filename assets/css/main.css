@@ -1,0 +1,55 @@
+
+
+body {
+    width : 960px;
+    background: lightseagreen;
+}
+
+img {
+    width:100%;
+
+}
+
+table {
+    width : 80%;
+    text-align: center;
+}
+
+
+
+.inputs {
+    margin: 5px auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+  
+  }
+  
+  
+  
+  table {
+      width: 80%;
+      text-align: center;
+      margin-bottom: 100px;
+      background: whitesmoke;
+      
+  }
+
+  
+  form {
+      width: 50%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      float: left;
+      border: 2px solid black;
+      margin: 2px;
+     
+  }
+  
+#train-tag {
+    width : 30%;
+    float: left;
+    margin: 2px;
+}

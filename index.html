@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Train Schedule</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+
+</head>
+
+<body>
+
+    <header>Train It UP</header>
+
+    <div >
+        <h1>Current Train Schedule</h1>
+
+        <table id="table-body" style='border: 2px solid blue;'>
+            <thead>
+                <tr>
+                    <th>
+                        Train Name
+                    </th>
+                    <th>
+                        Destination
+                    </th>
+                    <th>
+                        Frequency(min)
+                    </th>
+                    <th>
+                        Next Arrival
+                    </th>
+                    <th>
+                        Minutes Away
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div id="form-data">
+        <form id="employee-data">
+            <label class="inputs" for="train-name">Train Name</label>
+            <input class="inputs" type="text" id="train-input">
+
+            <label class="inputs" for="role">Destination</label>
+            <input class="inputs" type="text" id="destination-input">
+            
+            <label class="inputs" for="frequency">Frequency</label>
+            <input class="inputs" type="text" id="frequency-input">
+
+            <label class="inputs" for="time">First train time(HH:mm - military time)</label>
+            <input class="inputs" type="text" id="time-input">
+           
+            <button class="inputs" type="submit" value="Submit" id="add-train">submit!</button>
+        </form>
+    </div>
+
+    <div id="train-tag">
+        <img src= "https://blog.kenkaminesky.com/wp-content/uploads/2010/10/Kaminesky-Blog-Banff-Canadian-Pacific-Train-entering-Banff-002.jpg" alt="train-image" > 
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+</body>
+
+</html>
